@@ -14,7 +14,7 @@
 		<!-- 注释控制完毕 -->
 		
 		 <!-- 数据库连接 -->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://rm-bp116802eans1qf74.mysql.rds.aliyuncs.com:3306/xyy_saas_zhl?characterEncoding=utf8" userId="wang_zhenyu" password="ADEMRzNJD25uKOq9CbmkYWRxLpaxb5">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://rm-bp1462kb0cc7803is.mysql.rds.aliyuncs.com:3306/xyy_v4?characterEncoding=utf8" userId="test-ybm-b2b" password="TEST_YBM_B2B@2018">
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
@@ -34,6 +34,9 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 		 <!-- 要对那些数据表进行生成操作，必须要有一个. -->
-        <table tableName="saas_sale_out_detail" domainObjectName="SaleOutDetailPo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="tb_order_report_merchant" domainObjectName="OrderReportMerchant" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="tb_order_report_merchantcode" domainObjectName="OrderReportMerchantcode" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="tb_order_report_areacode" domainObjectName="OrderReportAreacode" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="tb_order_report_productcode" domainObjectName="OrderReportProductcode" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     </context>
 </generatorConfiguration>
